@@ -1,0 +1,24 @@
+html, body {
+  width: 100%;
+  height: 100%;
+
+  background-color: #000;
+}
+
+.introCaousel {
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+  filter: blur(3px) brightness(0.9);
+}
+
+.introTitle {
+  position: absolute;
+  z-index: 5;
+  color: #ffffff;
+  font-size: 5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

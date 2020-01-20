@@ -1,0 +1,25 @@
+{
+  "name": "trilearn",
+  "version": "0.1.0",
+  "description": "TriNet Programming Language Learning Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tritiumNetworks/triLearn.git"
+  },
+  "author": "TriNet / PMH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tritiumNetworks/triLearn/issues"
+  },
+  "homepage": "https://github.com/tritiumNetworks/triLearn#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "discord-oauth": "^1.0.3",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
